@@ -6,6 +6,8 @@
 </script>
 
 <ul>
-  <li each='{text in users}'>{text}</li>
+  <span each='{user in users}'>
+    <li>{user.name} id: {user.id}</li>
+  </span>
 </ul>
 </example-tag>

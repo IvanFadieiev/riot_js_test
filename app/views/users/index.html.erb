@@ -29,11 +29,11 @@
 <example-tag></example-tag>
 
 <script>
-var users = <%= raw @names %>
+var users = <%= raw @users.to_json %>
 console.log(users)
-  $(function() {
-    riot.mount('example-tag', {
-      users: users
-    });
+$(function() {
+  riot.mount('example-tag', {
+    users: users
   });
+});
 </script>

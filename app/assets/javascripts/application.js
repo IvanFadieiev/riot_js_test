@@ -15,8 +15,3 @@
 //= require riot
 //= require riot_rails
 //= require_tree .
-
-
-// $(function() {
-//   riot.mount('time_data');
-// });
